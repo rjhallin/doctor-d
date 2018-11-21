@@ -1,0 +1,197 @@
+html
+  head
+    link(href ="css/style.css", rel="stylesheet")
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial scale=1')
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.4.2/css/all.css', integrity='sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns', crossorigin='anonymous')
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+    link(href='https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Open+Sans:300,400,700', rel='stylesheet')
+  body
+    
+    script.
+      $(document).ready(function(){
+        $(".hamburger").click(function(){
+          $(".main-nav").toggleClass("collapsed");
+        });
+      });
+    .header-wrapper
+      .eyebrow-wrapper
+        .eyebrow
+          .socials
+            a(href="https://www.facebook.com/Cosmetic.Plastic.Surgery.Ctr/" target="_blank") <i class="fab fa-facebook-square"></i>
+            a(href="https://twitter.com/seedoctord?lang=en" target="_blank") <i class="fab fa-twitter-square"></i>
+            a(href="https://plus.google.com/u/0/104899294954700051081" target="_blank") <i class="fab fa-google-plus-square"></i>
+      .logo-address-wrapper
+        .logo-address
+          .logo
+            a(href="/index.html")
+              img(src="https://cdn2.hubspot.net/hubfs/4435595/Website%20Project/doctor-d-logo.png", alt="Dr. DiMercurio")
+          .addresses
+            .address.first
+              h4 Hagerstown, MD
+              p 11110 Medical Campus Rd Ste 241
+              a(href="tel:3017144461") 301.714.4461
+            .address.second
+              h4 Chambersburg, PA
+              p 49 St. Paul Drive
+              a(href="tel:7172611620") 717.261.1620
+          .hamburger
+            <i class="fas fa-bars"></i>
+      .main-nav-wrapper
+        .main-nav.collapsed
+          ul
+            li
+              a(href="/body.html") Meet the Team
+            li
+              a(href="/body.html") Face
+            li
+              a(href="/body.html") Body
+            li
+              a(href="/body.html") Breast
+            li
+              a(href="/body.html") Skin
+            li
+              a(href="/body.html") Products
+            li
+              a(href="/body.html") Specials
+            li
+              a(href="/blog-listing.html") Blog
+            li
+              a(href="/contact.html") Contact
+    .blog.post-page-wrapper
+        .post-page
+            .hero-wrapper
+                .hero
+                    img(src="https://cdn2.hubspot.net/hubfs/4435595/Website%20Project/hero-blog.jpg", alt="") 
+                .hero-header
+                    .text-section
+                        h1 Blog 
+            .blog-page-content       
+                .post-wrapper
+                    .post
+                        .blog-card
+                            .blog-post-title
+                                h1 Vivamus Venenatis Urna At Faucibus Velit Ornare
+                            .blog-post-body
+                                .blog-post-featured-image
+                                    img(src="https://cdn2.hubspot.net/hubfs/4435595/Website%20Project/blog-thumbnail1.jpg", alt="")
+                                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non commodo est. Maecenas eget nulla venenatis magna dignissim maximus. Donec erat lectus, feugiat quis facilisis ac, malesuada eget odio. Pellentesque sapien felis, lobortis vel ultricies sit amet, dapibus a lacus. Quisque blandit eleifend urna, non mollis est commodo a. Mauris et aliquet massa. Curabitur blandit nibh mi, vitae facilisis felis mattis nec.
+                                p Nullam feugiat magna in diam feugiat dignissim. Nulla sapien mauris, egestas quis nisl at, laoreet sagittis est. Vivamus rhoncus tempor lacus, eget fermentum erat sollicitudin eget. Proin rutrum lacus id sapien sollicitudin, sed aliquet augue fringilla. Maecenas nec ultricies orci. In sapien elit, condimentum vitae varius ut, pretium ac lacus. Integer arcu enim, blandit ac tincidunt vitae, dictum in lectus. Maecenas semper diam in dui aliquam, ut fermentum tortor dignissim. Etiam in euismod risus. Donec posuere libero at dolor tristique ornare. Ut et tincidunt diam. Suspendisse erat neque, accumsan eget arcu eget, finibus tincidunt risus. Curabitur varius dolor eget urna malesuada euismod. Ut dolor velit, pellentesque eget nibh sed, rutrum rutrum dolor. Morbi sed nisl iaculis, bibendum ligula ut, fermentum nunc.
+                                p
+                                    | Donec lacinia, mi sit amet euismod vulputate, metus sapien tincidunt neque, eu auctor leo nibh id nulla. Suspendisse vestibulum nunc quis sapien pulvinar, at pulvinar lectus ultrices. 
+                                    a(href="") Interdum et malesuada fames ac ante ipsum. 
+                                    | Integer pulvinar imperdiet nisi dapibus suscipit. In hac habitasse platea dictumst.
+                                p Phasellus vel sem ac nisi molestie pulvinar. In tristique molestie sem, non efficitur nunc lacinia vitae. Maecenas id lacinia massa, et gravida arcu. Aliquam vulputate tempor tortor nec rhoncus. Maecenas sit amet dapibus erat. Morbi id egestas ante, vestibulum pulvinar tortor. 
+                                ul 
+                                    li Lorem
+                                    li Ipsum
+                                    li Dolor
+                                    li Sit
+                                    li Amet
+                                p Vestibulum nec nibh viverra, venenatis tortor sed, malesuada sapien. Nulla ligula dolor, vulputate semper fringilla eu, fermentum nec massa. Sed blandit diam lectus, ac sollicitudin massa interdum sit amet. Donec ante purus, lacinia sit amet justo id, suscipit suscipit dolor. 
+                                p Cras a fringilla nunc. Aenean commodo facilisis vehicula. Cras facilisis purus sit amet quam mollis, eu ullamcorper lorem iaculis.
+                                a(href="").blog-post-cta Contact Us
+                .sidebar-wrapper
+                    .sidebar
+                        .form
+                            script(charset='utf-8', type='text/javascript', src='//js.hsforms.net/forms/v2.js')
+                            script.
+                                hbspt.forms.create({
+                                portalId: "4435595",
+                                formId: "38dffe4d-8142-4f94-93f0-3648bf0d0a0d"
+                                });
+                        .post-topics
+                            h4 Browse By Topic
+                            .topics
+                                a(href="") Acne Treatment
+                                a(href="") Arm Lift
+                                a(href="") Body
+                                a(href="") Body Contouring
+                                a(href="") Breast Augmentation
+                                a(href="") Breast Lift
+                                a(href="") Breast Reconstruction
+                                a(href="") Breast Reduction
+                                a(href="") Brow Lift
+                                a(href="") Chin Implant
+                                a(href="") Colorscience
+                                a(href="") Ear Reshaping
+                                a(href="") Eyelash Treatment
+                                a(href="") Eyelid Surgery
+                                a(href="") Face Lift
+                                a(href="") Hair Removal
+                                a(href="") hydrafacial
+                                a(href="") Kybella
+                                a(href="") Liposuction
+                                a(href="") Massage Therapy
+                                a(href="") Microdermabrassion
+                                a(href="") Nose Reshaping
+                                a(href="") Permanent Makeup
+                                a(href="") Resonstruction
+                                a(href="") Rejuvenating Skin Peel
+                                a(href="") Specials
+                                a(href="") Tatoo Removal
+                                a(href="") Thigh Lift
+                                a(href="") Tummy Tuck
+    footer
+        .top-footer-wrapper
+            .top-footer
+                .footer-col.first
+                    .site-map
+                        h4 Site Map
+                        ul
+                            li
+                                a(href="/index.html") Home
+                            li
+                                a(href="/body.html") Meet The Team
+                            li
+                                a(href="/body.html") Face
+                            li
+                                a(href="/body.html") Body
+                            li
+                                a(href="/body.html") Breast
+                            li
+                                a(href="/body.html") Skin
+                            li
+                                a(href="/body.html") Products
+                            li
+                                a(href="/body.html") Specials
+                            li
+                                a(href="/body.html") Blog
+                            li
+                                a(href="/body.html") Contact
+                .footer-col.second
+                    .company-info.first
+                        .address
+                            h4 Hagerstown Office
+                            p 11110 Medical Campus Rd
+                            p Ste 241
+                            p Hagerstown, MD 21742
+                        .phone
+                            h4 Phone
+                            a(href="tel:3017144461") 301.714.4461
+                        .hours
+                            h4 Hours
+                            p Monday - Friday: 8:00-4:00
+                .footer-col.third
+                    .company-info.second
+                        .address
+                            h4 Chambersburg Office
+                            p 49 St. Paul Drive
+                            p Chambersburg, PA 17201
+                        .phone
+                            h4 Phone
+                            a(href="tel:7172611620") 717.261.1620
+                        .hours
+                            h4 Hours
+                            p Monday - Thursday: 8:00-4:30
+                            p Friday: 8:00-3:00
+        .copyright-wrapper
+            .copyright
+                .text-section
+                    p
+                        | Copyright 2018 Cosmetic Plastic Surgery Center | 
+                        a(href="") Privacy Policy
+                .socials
+                    a(href="https://www.facebook.com/Cosmetic.Plastic.Surgery.Ctr/" target="_blank") <i class="fab fa-facebook-square"></i>
+                    a(href="https://twitter.com/seedoctord?lang=en" target="_blank") <i class="fab fa-twitter-square"></i>
+                    a(href="https://plus.google.com/u/0/104899294954700051081" target="_blank") <i class="fab fa-google-plus-square"></i>

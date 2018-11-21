@@ -1,0 +1,13 @@
+/**
+ * Lost Row Mixin
+ */
+
+@mixin lost-row($width: $layout-width) {
+  lost-center: $width;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  @include breakpoint-lg {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

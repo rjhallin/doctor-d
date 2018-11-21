@@ -1,0 +1,54 @@
+// Base Variables for Project Use
+
+// Colors
+$brand-blue: blue;
+$brand-red: red;
+$brand-orange: orange;
+$brand-yellow: yellow;
+$brand-green: green;
+$brand-purple: purple;
+$color-base: $brand-yellow;
+
+// Neutrals
+$brand-grey: grey;
+$brand-black: black;
+$brand-white: white;
+
+// Color Variants
+$color-white: lighten($color-base, 100%);
+$color-gray: lighten($color-base, 40%);
+$color-gray-border: lighten($color-base, 77%);
+$color-gray-bg: lighten($color-base, 79%);
+
+// Headers
+$font-family: "Muli", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$header-line-height: 1.2;
+$header-color: $brand-grey;
+
+// Body Text
+$body-font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$body-line-height: 1.6;
+$font-size: 16px;
+$small-font-size: 14px;
+$link-color: lighten($brand-grey, 50%);
+$visited-link-color: darken($brand-grey, 30%);
+
+// Layout
+
+$layout-width: 90vw;
+$layout-breakpoint-md: 40rem;
+$layout-breakpoint-lg: 69rem;
+
+// Shadows
+$shadow-level-1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$shadow-level-2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+$shadow-level-3: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+$shadow-level-4: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+$shadow-level-5: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+
+// Added Variables
+$dd-dark-blue: #061e78;
+$dd-copyright: #3d5a76;
+$dd-teal: #7cac9d;
+$dd-pb: #7380bf;

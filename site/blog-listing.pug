@@ -1,0 +1,228 @@
+html
+  head
+    link(href ="css/style.css", rel="stylesheet")
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial scale=1')
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.4.2/css/all.css', integrity='sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns', crossorigin='anonymous')
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+    link(href='https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Open+Sans:300,400,700', rel='stylesheet')
+  body
+    
+    script.
+      $(document).ready(function(){
+        $(".hamburger").click(function(){
+          $(".main-nav").toggleClass("collapsed");
+        });
+      });
+    .header-wrapper
+      .eyebrow-wrapper
+        .eyebrow
+          .socials
+            a(href="https://www.facebook.com/Cosmetic.Plastic.Surgery.Ctr/" target="_blank") <i class="fab fa-facebook-square"></i>
+            a(href="https://twitter.com/seedoctord?lang=en" target="_blank") <i class="fab fa-twitter-square"></i>
+            a(href="https://plus.google.com/u/0/104899294954700051081" target="_blank") <i class="fab fa-google-plus-square"></i>
+      .logo-address-wrapper
+        .logo-address
+          .logo
+            a(href="/index.html")
+              img(src="https://cdn2.hubspot.net/hubfs/4435595/Website%20Project/doctor-d-logo.png", alt="Dr. DiMercurio")
+          .addresses
+            .address.first
+              h4 Hagerstown, MD
+              p 11110 Medical Campus Rd Ste 241
+              a(href="tel:3017144461") 301.714.4461
+            .address.second
+              h4 Chambersburg, PA
+              p 49 St. Paul Drive
+              a(href="tel:7172611620") 717.261.1620
+          .hamburger
+            <i class="fas fa-bars"></i>
+      .main-nav-wrapper
+        .main-nav.collapsed
+          ul
+            li
+              a(href="/body.html") Meet the Team
+            li
+              a(href="/body.html") Face
+            li
+              a(href="/body.html") Body
+            li
+              a(href="/body.html") Breast
+            li
+              a(href="/body.html") Skin
+            li
+              a(href="/body.html") Products
+            li
+              a(href="/body.html") Specials
+            li
+              a(href="/blog-listing.html") Blog
+            li
+              a(href="/contact.html") Contact
+    .blog.listing-page-wrapper
+        .listing-page
+            .hero-wrapper
+                .hero
+                    img(src="https://cdn2.hubspot.net/hubfs/4435595/Website%20Project/hero-blog.jpg", alt="") 
+                .hero-header
+                    .text-section
+                        h1 Blog 
+            .blog-page-content       
+                .listings-wrapper
+                    .listings
+                        .blog-card
+                            .featured-image
+                                a(href="/blog-post-1")
+                                    img(src="https://cdn2.hubspot.net/hubfs/4435595/Website%20Project/blog-thumbnail1.jpg", alt="")
+                            .displayed-content
+                                .post-title
+                                    a(href="/blog-post-1")
+                                        h3 Vivamus veneatis urna at faucibus velit ornare
+                                .post-summary
+                                    p Nulla facilla. Donec ullamcorper, nunc ac fringilla blandit, mauris tortor cursus enim, id vestibulum nibh risus ut turpis.
+                                .read-more
+                                    a(href="/blog-post-1") Read More &raquo;
+                        hr
+                        .blog-card
+                            .featured-image
+                                a(href="/blog-post-2")
+                                    img(src="https://cdn2.hubspot.net/hubfs/4435595/Website%20Project/blog-thumbnail2.jpg", alt="")
+                            .displayed-content
+                                .post-title
+                                    a(href="/blog-post-2")
+                                        h3 Vivamus veneatis urna at faucibus velit ornare
+                                .post-summary
+                                    p Nulla facilla. Donec ullamcorper, nunc ac fringilla blandit, mauris tortor cursus enim, id vestibulum nibh risus ut turpis.
+                                .read-more
+                                    a(href="/blog-post-2") Read More &raquo;
+                        hr
+                        .blog-card
+                            .featured-image
+                                a(href="/blog-post-3")
+                                    img(src="https://cdn2.hubspot.net/hubfs/4435595/Website%20Project/blog-thumbnail3.jpg", alt="")
+                            .displayed-content
+                                .post-title
+                                    a(href="/blog-post-3")
+                                        h3 Vivamus veneatis urna at faucibus velit ornare
+                                .post-summary
+                                    p Nulla facilla. Donec ullamcorper, nunc ac fringilla blandit, mauris tortor cursus enim, id vestibulum nibh risus ut turpis.
+                                .read-more
+                                    a(href="/blog-post-3") Read More &raquo;
+                        hr
+                        .blog-card
+                            .featured-image
+                                a(href="/blog-post-4")
+                                    img(src="https://cdn2.hubspot.net/hubfs/4435595/Website%20Project/blog-thumbnail4.jpg", alt="")
+                            .displayed-content
+                                .post-title
+                                    a(href="/blog-post-4")
+                                        h3 Vivamus veneatis urna at faucibus velit ornare
+                                .post-summary
+                                    p Nulla facilla. Donec ullamcorper, nunc ac fringilla blandit, mauris tortor cursus enim, id vestibulum nibh risus ut turpis.
+                                .read-more
+                                    a(href="/blog-post-4") Read More &raquo;
+                        hr
+                        .view-all-posts
+                            a(href="/blog-listing.html") View All Posts
+                .sidebar-wrapper
+                    .sidebar
+                        .form
+                            script(charset='utf-8', type='text/javascript', src='//js.hsforms.net/forms/v2.js')
+                            script.
+                                hbspt.forms.create({
+                                portalId: "4435595",
+                                formId: "38dffe4d-8142-4f94-93f0-3648bf0d0a0d"
+                                });
+                        .post-topics
+                            h4 Browse By Topic
+                            a(href="") Acne Treatment
+                            a(href="") Arm Lift
+                            a(href="") Body
+                            a(href="") Body Contouring
+                            a(href="") Breast Augmentation
+                            a(href="") Breast Lift
+                            a(href="") Breast Reconstruction
+                            a(href="") Breast Reduction
+                            a(href="") Brow Lift
+                            a(href="") Chin Implant
+                            a(href="") Colorscience
+                            a(href="") Ear Reshaping
+                            a(href="") Eyelash Treatment
+                            a(href="") Eyelid Surgery
+                            a(href="") Face Lift
+                            a(href="") Hair Removal
+                            a(href="") hydrafacial
+                            a(href="") Kybella
+                            a(href="") Liposuction
+                            a(href="") Massage Therapy
+                            a(href="") Microdermabrassion
+                            a(href="") Nose Reshaping
+                            a(href="") Permanent Makeup
+                            a(href="") Resonstruction
+                            a(href="") Rejuvenating Skin Peel
+                            a(href="") Specials
+                            a(href="") Tatoo Removal
+                            a(href="") Thigh Lift
+                            a(href="") Tummy Tuck
+    footer
+        .top-footer-wrapper
+            .top-footer
+                .footer-col.first
+                    .site-map
+                        h4 Site Map
+                        ul
+                            li
+                                a(href="/index.html") Home
+                            li
+                                a(href="/body.html") Meet The Team
+                            li
+                                a(href="/body.html") Face
+                            li
+                                a(href="/body.html") Body
+                            li
+                                a(href="/body.html") Breast
+                            li
+                                a(href="/body.html") Skin
+                            li
+                                a(href="/body.html") Products
+                            li
+                                a(href="/body.html") Specials
+                            li
+                                a(href="/body.html") Blog
+                            li
+                                a(href="/body.html") Contact
+                .footer-col.second
+                    .company-info.first
+                        .address
+                            h4 Hagerstown Office
+                            p 11110 Medical Campus Rd
+                            p Ste 241
+                            p Hagerstown, MD 21742
+                        .phone
+                            h4 Phone
+                            a(href="tel:3017144461") 301.714.4461
+                        .hours
+                            h4 Hours
+                            p Monday - Friday: 8:00-4:00
+                .footer-col.third
+                    .company-info.second
+                        .address
+                            h4 Chambersburg Office
+                            p 49 St. Paul Drive
+                            p Chambersburg, PA 17201
+                        .phone
+                            h4 Phone
+                            a(href="tel:7172611620") 717.261.1620
+                        .hours
+                            h4 Hours
+                            p Monday - Thursday: 8:00-4:30
+                            p Friday: 8:00-3:00
+        .copyright-wrapper
+            .copyright
+                .text-section
+                    p
+                        | Copyright 2018 Cosmetic Plastic Surgery Center | 
+                        a(href="") Privacy Policy
+                .socials
+                    a(href="https://www.facebook.com/Cosmetic.Plastic.Surgery.Ctr/" target="_blank") <i class="fab fa-facebook-square"></i>
+                    a(href="https://twitter.com/seedoctord?lang=en" target="_blank") <i class="fab fa-twitter-square"></i>
+                    a(href="https://plus.google.com/u/0/104899294954700051081" target="_blank") <i class="fab fa-google-plus-square"></i>
